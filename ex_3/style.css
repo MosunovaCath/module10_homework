@@ -1,0 +1,26 @@
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+.our-message {
+  background-color: bisque;
+  text-align: right;
+  width: 148px;
+  margin-bottom: 40px;
+}
+.server-message {
+  background-color: gainsboro;
+  width: 148px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+.btn-row {
+  background-color: beige;
+  width: 148px;
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  background-color: beige;
+  width: 148px;
+}

@@ -1,0 +1,23 @@
+<!-- Задание 2.
+
+Сверстайте кнопку, клик на которую будет выводить данные о размерах экрана с помощью alert.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function showSizes() {
+        let wight = window.innerWidth;
+        let height = window.innerHeight;
+        alert(`wight - ${wight}. height - ${height}`);
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="showSizes()">Show</button>
+  </body>
+</html>
